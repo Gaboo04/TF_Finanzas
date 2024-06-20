@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.cerrarsesion-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #4D47C3;
+    margin-left: 10px; /* Ajusta el margen según sea necesario */
+}
+
+/* Estilos para el enlace dentro de .cerrarsesion-link */
+.cerrarsesion-link a {
+    color: black;
+    font-weight: 600;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.illustration-container {
+    margin: 20px 0;
+}
+
+.illustration-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navigation-buttons button {
+    background-color: #4D47C3;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+    background-color: #3c3a9e;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.BienvenidoHome {
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}

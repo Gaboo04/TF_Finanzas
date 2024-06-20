@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Easy - Configuración</title>
+    <link rel="stylesheet" href="css/settings.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="img/VectorLogo.svg" alt="Finance Easy Logo">
+            </div>
+            <h1>Configure a sus necesidades!</h1>
+            <p class="cerrarsesion-link"><a href="index.html">Cerrar Sesión</a></p>
+        </header>
+
+        <main class="main-grid">
+            <div class="left-section">
+                <h2>Configure sus necesidades</h2>
+                <div class="illustration-container">
+                    <img src="img/homeImg.png" alt="Illustration">
+                </div>
+            </div>
+            <div class="right-section">               
+                <form class="settings-form">
+                    <h2>Configuración</h2>
+                    <div class="input-group">
+                        <label for="credito">Crédito</label>
+                        <input type="text" id="credito" name="credito" placeholder="Ingrese el crédito">
+                    </div>
+                    <div class="input-group">
+                        <label for="moneda">Moneda</label>
+                        <select id="moneda" name="moneda">
+                            <option value="soles">Soles (S/)</option>
+                            <option value="dolares">Dólares (USD)</option>
+                            <option value="euros">Euros (EUR)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="tasa">Tasa de interés</label>
+                        <select id="tasa" name="tasa">
+                            <option value="TEA">TEA </option>
+                            <option value="TEC">TEC </option>
+                            <option value="TEM">TEM </option>
+                            <option value="TEQ">TEQ </option>
+                            <option value="TED">TED </option>
+                            <option value="TNA">TNA </option>
+                            <option value="TNC">TNC </option>
+                            <option value="TNM">TNM </option>
+                            <option value="TNQ">TNQ </option>
+                            <option value="TND">TND </option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="fecha">Fecha de plazo</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>                
+                    <div class="input-group">
+                        <label for="tasa">Tasa de interés moratoria</label>
+                        <input type="text" id="tasa" name="tasa" placeholder="Ingrese la tasa de mora">
+                    </div>
+                    <div class="input-group">
+                        <label for="graciatotales">Periodos de gracia totales</label>
+                        <input type="text" id="graciatotales" name="graciatotales" placeholder="Número gracia totales">
+                    </div>
+                    <div class="input-group">
+                        <label for="graciaparciales">Periodos de gracia parciales</label>
+                        <input type="text" id="graciaparciales" name="graciaparciales" placeholder="Número gracia parciales">
+                    </div>
+                    <div class="button-group">
+                        <button type="submit">Financiar</button>
+                        <button type="button" onclick="window.location.href='home.html'">Volver</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
